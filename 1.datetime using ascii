@@ -1,0 +1,8 @@
+from datetime import datetime
+>>> now=datetime.now()
+>>> time=now.strftime("%x")
+>>> print("time",time)
+time 11/30/19
+>>> time=now.strftime("%X")
+>>> print("time",time)
+time 14:36:24
