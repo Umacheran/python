@@ -1,0 +1,11 @@
+
+In [1]: import re
+
+In [2]: s1="sday,mady,tday,wday,tday,fday,sday,1day"
+
+In [3]: day=re.compile("sday")
+
+In [4]: s1=day.sub("hai",s1)
+
+In [5]: print(s1)
+hai,mady,tday,wday,tday,fday,hai,1day
