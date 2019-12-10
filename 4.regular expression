@@ -1,0 +1,12 @@
+
+In [1]: import re
+
+In [2]: str="""hi santhosh how are you .how is regular expression is going on""
+   ...: "
+
+In [3]: reg_exp=re.compile("are")
+
+In [4]: str=reg_exp.sub("r",str)
+
+In [5]: print(str)
+hi santhosh how r you .how is regular expression is goi
