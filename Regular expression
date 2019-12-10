@@ -1,0 +1,9 @@
+
+In [1]: import re
+
+In [2]: s1="santhosh is a very common name"
+
+In [3]: if(re.search("s[aa][mn][rt][ho][oi]sh",s1)):
+   ...:     print("found")
+   ...:
+found
